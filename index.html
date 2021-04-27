@@ -7,7 +7,7 @@
     <title>Moms First</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2">
 </head>
 <body>
     <header>
@@ -16,10 +16,25 @@
           <a class="active" href="#home">Home</a>
           <a href="#about_us">About Us</a>
           <a href="#contact">Contact Us</a>
-          <input type="text" placeholder="Search..">
+          <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit">Search</button>
+            </form>
+          </div>
         </div>
       </div>
     </header> 
+    <div class="container">
+      <div class="jumbotron" style="background-color: rgb(0, 204, 255);">
+        <div class="jumbo-text">
+        <h1>Mental health awareness</h1>
+        <h1> for new moms</h1>
+      </div>
+      </div>
+      <div class="center">
+        <img src="./images/landing-pic1.png" alt="landing-pic1" class="container">
+      </div>
     <div class="controls-top text-center" id="about_us"> 
       <h2>About Us</h2>
   </div>
