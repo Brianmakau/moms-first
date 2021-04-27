@@ -5,47 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moms First</title>
-    <link rel="stylesheet" href="/css/script.css">
-    <link rel="stylesheet" href="/css/bootstrap.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2">
 </head>
 <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+      <div class="container">
+        <div class="topnav">
+          <a class="active" href="#home">Home</a>
+          <a href="#about_us">About Us</a>
+          <a href="#contact">Contact Us</a>
+          <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit">Search</button>
+            </form>
+          </div>
         </div>
-      </nav>
-    </header>  
+      </div>
+    </header> 
+    <div class="container">
+      <div class="jumbotron" style="background-color: rgb(0, 204, 255);">
+        <div class="jumbo-text">
+        <h1>Mental health awareness</h1>
+        <h1> for new moms</h1>
+      </div>
+      </div>
+      <div class="center">
+        <img src="./images/landing-pic1.png" alt="landing-pic1" class="container">
+      </div>
+    <div class="controls-top text-center" id="about_us"> 
+      <h2>About Us</h2>
+  </div>
+    <div class="container-fluid section" id="about-us">
+      <div class="col-sm-12 d-flex flex-xs-column">
+        <div class="col-sm-7 img text-center about-img">
+            <div class="about-pic">
+              <img src="./images/about-moms.jpg" alt="about-moms" class="container">
+            </div>
+        </div>
+        <div class="col-sm-5 align-items-center">
+          <div class="content container">
+            <p>Moms First is a registered community-based organization in Kiambu County. It was formed to provide mental health resources for new moms and their families</p>
+            <h3>Why Moms First</h3>
+            <p>“Nobody really tells you the truth about motherhood."</p>
+            <p>This is something that many new mothers feel, and relate to. The truth is, that no matter how much you read about the sleep deprivation, the witching hours, and the lack of what used to be essential personal grooming (there are still days I don’t shower), it’s not really believable until you’re the one in your pajamas from the previous day, microwaving your coffee for the third time while you try to measure formula powder through barely-open eyes or attempt to unhook your nursing bra only to remember you aren’t wearing one. We see others with their babies out at the grocery store or library and think they look great. They probably even ate breakfast. And we think we are the only mom who is fumbling and faking their way through a new life.</p>
+            <p>Being a mom? Is HARD.  And that is why Moms First is putting together resources to help new mothers and their families.</p>
+            <p>Visit our blog resources page to learn more, or drop by at the therapist page to get help.</p>
+            <div>
+            <h4>Moms-First Objectives</h4>
+          </div>
+          <p>1. Providing psychosocial support for new moms.</p>
+          <p>2. Creating a bridge between the moms, families and professionals in the mental health field</p>
+          <p>3. Advocating for mental health through our online platforms.</p>
+          </div>
+        </div>
+      </div>
+  </div>
 </body>
 </html>
