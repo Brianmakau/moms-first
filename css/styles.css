@@ -76,7 +76,7 @@ body {
   width: 70%;
   margin-left: 150px;
 }
-#jumbo {
+.jumbotron {
   background-color: blue;
   margin-top: 20px;
   background-image: url(../images/jumbotron.jpg);
@@ -103,15 +103,5 @@ body {
 .contact {
   text-align: center;
 }
-#contact-jumbo {
-  background-image: url(../images/contact-moms.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment:fixed;
-  padding-bottom: 50px;
-  position: relative;
-  overflow-x: hidden;
-  margin-top: 20px;
-}
+
 
