@@ -26,7 +26,7 @@ body {
 }
 
 .topnav a.active {
-  background-color: #2196F3;
+  background-color: #11bae4;
   color: white;
 }
 
@@ -103,5 +103,10 @@ body {
 .contact {
   text-align: center;
 }
-
+.phone {
+  margin-top: 10px;
+}
+.click-me {
+  margin-top: 10px;
+}
 
