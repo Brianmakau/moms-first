@@ -76,9 +76,17 @@ body {
   width: 100%;
   margin-left: 10px;
 }
-.jumbotron {
+#jumbo {
   background-color: blue;
   margin-top: 20px;
+  background-image: url(../images/jumbotron.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  padding-bottom: 50px;
+  position: relative;
+  overflow-x: hidden;
 }
 .jumbo-text {
   text-align: center;
@@ -92,3 +100,17 @@ body {
   margin-right: auto;
   width: 50%;
 }
+.contact {
+  text-align: center;
+}
+#contact-jumbo {
+  background-image: url(../images/contact-moms.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  padding-bottom: 50px;
+  position: relative;
+  overflow-x: hidden;
+}
+
