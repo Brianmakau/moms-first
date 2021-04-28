@@ -13,7 +13,7 @@
     <header>
       <nav>
         <div class="topnav">
-          <a class="active" href="#home">Home</a>
+          <a class="active" href="#landing">Home</a>
           <a href="#about_us">About Us</a>
           <a href="#contact">Contact Us</a>
           <a href="blog.html">Visit Our Blog</a>
@@ -24,10 +24,9 @@
             </form>
           </div>
         </div>
-      </div>
     </nav>
     </header> 
-    <div class="container-fluid">
+    <div class="container-fluid" id="landing">
       <div class="jumbotron"  >
         <div class="jumbo-text">
         <h1><strong> Mental health awareness</strong></h1>
@@ -73,30 +72,33 @@
 <div>
   <footer>
     <div class="container-fluid">
-      <div class="contact" id="contact">
-        <div class="jumbotron"  >
+        <div class="jumbotron">
+          <div class="contact" id="contact">
+          <h1 class=" text-center text-white"> Contact Us: </h1>
+          <p class=" text-center text-white">+254 611555777 / momsfirst@gmail.com</p>
          <div class="row">
           <div class="col-sm-1"></div>
           <div class="col-sm-5 subs">
-              <h1 class="text-white text-center"> Call Us </h1>
-              <p class="text-center">+254 611555777</p>
               <form>
                   <div class="email-info">
                       <div class="form-group fill-all-form">
                           <input type="email" class="form-control bg-transparent email" id="email" placeholder="Email"
                                  required="">
+                          <input type="phone" class="form-control bg-transparent phone" id="phone" placeholder="phone number"
+                                 required="">
                       </div>
                   </div>
-                  <div class=" email-info text-center">
-                      <button class="btn bg-success click-me" onclick="subscribe();">Subscribe</button>
-                  </div>
+                  
               </form>
           </div>
-          <div class="col-sm-5">
-              <h4 class="text-center">We love feedback..send us a mail</h4>
+          <div class="col-sm-5 feedback">
+              <textarea class="form-control bg-transparent text" id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
           </div>
           <div class="col-sm-1"></div>
       </div>
+      <div class=" email-info text-center">
+        <button type="submit" class="btn bg-secondary click-me" onclick="submit();">Submit</button>
+    </div>
   </div>
   </div>
         </div> 
