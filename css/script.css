@@ -1,0 +1,32 @@
+.container {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    padding-top: 15px;
+    background-color: lightblue;
+}
+.center {
+    text-align: center;
+    padding-top: 20px;
+}
+.information {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    padding-top: 15px;
+    padding-top: 10px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+li {
+    text-align: left;
+    
+}
+.engagement {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
