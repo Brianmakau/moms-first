@@ -73,8 +73,8 @@ body {
   }
 }
 .about-pic {
-  width: 100%;
-  margin-left: 10px;
+  width: 70%;
+  margin-left: 150px;
 }
 #jumbo {
   background-color: blue;
@@ -112,5 +112,6 @@ body {
   padding-bottom: 50px;
   position: relative;
   overflow-x: hidden;
+  margin-top: 20px;
 }
 
