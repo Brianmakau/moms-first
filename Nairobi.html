@@ -30,9 +30,9 @@
         <div class="row">
             <div class="col-md-6">
                 <label for="date"></label>
-                <input class="input" type="date" id="date" name="" value="d1" required>
+                <input class="input" type="date" id="date" name="" value="d1" min="2021-04-01" max="2021-08-31" required>
 
-                <br><input  class="input" type="time"  id="time" name=""  required>
+                <br><input  class="input" type="time"  id="time" name=""  min="08:00" max="17:00" required>
     
                 <br><label for="name">Please enter your Name</label>
                 <input class="input" type="name" name="" class="input" id="name" value="" required>
@@ -46,7 +46,7 @@
     
             </div>
             <div class="col-md-6">
-            <h3 id="hidden"><strong>Here is a recored of your last booking :</strong></h3>
+            <h3 id="hidden"><strong>Here is a record of your last booking :</strong></h3>
             <ol style="list-style-type: none; display: none;"></ol>
                 <p id="booking" style="display: none;"></p>
             </div>

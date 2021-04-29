@@ -23,7 +23,7 @@ function customerDetails() {
    else if (document.getElementById("time").value === "t1") {
       alert("Please choose your time of prefference:");
   }  
-   else if (document.getElementById("name").value === "nm1") {
+   else if (document.getElementById("name").value === "") {
       alert("Please fill in you name:"); 
   } 
    else if (newNumber === "") {
@@ -45,13 +45,6 @@ function customerDetails() {
 
   }
 
-  if(newInfo.date >= "08:00:00 AM" && newInfo.date <= "5:00:00 PM")
-  {
-    alert("We are open!")
-  }
-  else if(newInfo.date <= "07:59:59" && newInfo.date >+"05:00:01 PM" ){
-    alert("We are closed!") 
-  }
   
   document.getElementById("booking").innerHTML =  present ;
   document.getElementById("time").value = "d1";
