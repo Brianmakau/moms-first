@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources page</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="topnav">
+            <a class="active" href="./index.html">Home</a>
+            <a href="blog.html">Visit Our Blog</a>
+            <a href="resources.html">Resources</a>
+          </div>
+      </nav>
+      </header>
+    <h1>Welcome to our Kisumu branch page.</h1>
+    <p>We are located at MegaCity mall, Nairobi Road</p>
+    <p>Our offices are open daily from 8AM to 5PM</p>
+    <p>Dr Obote Olatunji is our chief resdent doctor and will cater for all your needs alongside our resident at the premises.</p>
+    <p>Please fill in the form below to book your appointment:</p>
+
+    <div class="form" id="order">
+        <div class="row">
+            <div class="col-md-6">
+                <label for="date"></label>
+                <input class="input" type="date" id="date" name="" value="d1" min="2021-04-01" max="2021-08-31" required>
+
+                <br><input  class="input" type="time"  id="time" name="" required >
+    
+                <br><label for="name">Please enter your Name</label>
+                <input class="input" type="name" name="" class="input" id="name" value="" required>
+
+                <br><label for="number">Please enter your Phone Number</label>
+                <input type="number" name="" class="input" id="number" value="nu1" required>
+
+                <br><button class="place" onclick="customerDetails()">Submit your details </button>
+    
+                <br><button class="checkout" id="toggle" onclick="checkout()"> View your details</button>
+    
+            </div>
+            <div class="col-md-6">
+            <h3 id="hidden"><strong>Here is a record of your last booking :</strong></h3>
+            <ol style="list-style-type: none; display: none;"></ol>
+                <p id="booking" style="display: none;"></p>
+            </div>
+         </div>
+    </div>
+</body>
+</html>
